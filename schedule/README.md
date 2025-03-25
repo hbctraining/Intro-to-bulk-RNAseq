@@ -1,4 +1,4 @@
-# Workshop Schedule
+# Introduction to bulk RNA-seq: From reads to count matrix
 
 > **Pre-requisite for this workshop:** The *Basic Data Skills* [Shell for Bioinformatics](https://hbctraining.github.io/Shell-for-bioinformatics/) workshop or a working knowledge of the command line and cluster computing.
 
