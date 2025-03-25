@@ -6,7 +6,7 @@
 
 ### Description
 
-This repository has teaching materials for a 3-day **Introduction to bulk RNA-sequencing data analysis** workshop. This workshop focuses on teaching basic computational skills to enable the effective use of an high-performance computing environment to implement an RNA-seq data analysis workflow. In addition to running the RNA-seq workflow from FASTQ files to count data using Salmon, the workshop covers best practice guidelines for RNA-seq experimental design and data organization/management.
+This repository has teaching materials for a 3-day **Introduction to bulk RNA-seq: From reads to count matrix** workshop. This workshop focuses on teaching basic computational skills to enable the effective use of an high-performance computing environment to implement an RNA-seq data analysis workflow. In addition to running the RNA-seq workflow from FASTQ files to count data using Salmon, the workshop covers best practice guidelines for RNA-seq experimental design and data organization/management.
 
 > **Pre-requisite for this workshop:** The *Basic Data Skills* [Shell for Bioinformatics](https://hbctraining.github.io/Shell-for-bioinformatics/) workshop or a working knowledge of the command line and cluster computing.
 
