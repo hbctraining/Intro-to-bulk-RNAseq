@@ -1,4 +1,4 @@
-# Bulk RNA-seq Data Analysis using High-Performance Computing (bulk RNA-seq Part I -- FASTQ to counts)
+# Introduction to bulk RNA-seq: From reads to count matrix
 
 ## Learning Objectives
 
