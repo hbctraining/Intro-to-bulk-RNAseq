@@ -172,9 +172,9 @@ Next we'll initialize 3 more variables named `genome`, `transcriptome` and `gtf`
 ```bash
 # directory with the genome and transcriptome index files + name of the gene annotation file
 
-genome=/n/groups/hbctraining/intro_rnaseq_hpc/reference_data_ensembl38/ensembl38_STAR_index
-transcriptome=/n/groups/hbctraining/rna-seq_2023_02/salmon_index/ref-transcripts
-gtf=/n/groups/hbctraining/intro_rnaseq_hpc/reference_data_ensembl38/Homo_sapiens.GRCh38.92.1.gtf
+genome=/n/groups/hbctraining/RNA_seq_part_1/reference_data/ensembl38_STAR_index
+transcriptome=/n/groups/hbctraining/RNA_seq_part_1/reference_data/salmon/ref-transcripts
+gtf=/n/groups/hbctraining/RNA_seq_part_1/reference_data/Homo_sapiens.GRCh38.92.1.gtf
 ```
 
 We'll create output directories, but with the `-p` option. This will make sure that `mkdir` will create the directory only if it does not exist, and it won't throw an error if it does exist.
