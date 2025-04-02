@@ -123,7 +123,7 @@ Listed below are additional parameters that we will use in our command:
 The full command is provided below for you to copy paste into your terminal. If you want to manually enter the command, it is advisable to first type out the full command in a text editor (i.e. [Sublime Text](http://www.sublimetext.com/) or [Notepad++](https://notepad-plus-plus.org/)) on your local machine and then copy paste into the terminal. This will make it easier to catch typos and make appropriate changes. 
 
 ```bash
-$ STAR --genomeDir /n/groups/hbctraining/intro_rnaseq_hpc/reference_data_ensembl38/ensembl38_STAR_index/ \
+$ STAR --genomeDir /n/groups/hbctraining/RNA_seq_part_1/reference_data/ensembl38_STAR_index/ \
 --runThreadN 6 \
 --readFilesIn Mov10_oe_1.subset.fq \
 --outFileNamePrefix ../results/STAR/Mov10_oe_1_ \
@@ -199,7 +199,7 @@ $ qualimap rnaseq \
 -a proportional \
 -bam results/STAR/Mov10_oe_1_Aligned.sortedByCoord.out.bam \
 -p strand-specific-reverse \
--gtf /n/groups/hbctraining/intro_rnaseq_hpc/reference_data_ensembl38/Homo_sapiens.GRCh38.92.1.gtf \
+-gtf /n/groups/hbctraining/RNA_seq_part_1/reference_data/Homo_sapiens.GRCh38.92.1.gtf \
 --java-mem-size=8G
 ```
 
