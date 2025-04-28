@@ -10,7 +10,7 @@ date: "October 26, 2020"
 
 ## Setting up
 
-This workshop assumes that you have either a) taken our [Introduction to command-line interface workshop](https://hbctraining.github.io/Intro-to-shell-flipped/schedule/) or b) been working on the command-line and are already fluent with shell/bash. **We ask that you complete the exercises below**, to refresh some basic commands that you will be using over the course of the workshop. For each section we have relevant materials linked as a helpful reference. 
+This workshop assumes that you have either a) taken our [Introduction to command-line interface workshop](https://hbctraining.github.io/Shell-for-bioinformatics/schedule/) or b) been working on the command-line and are already fluent with shell/bash. **We ask that you complete the exercises below**, to refresh some basic commands that you will be using over the course of the workshop. For each section we have relevant materials linked as a helpful reference. 
 
 ### Opening up a terminal window
 
@@ -95,9 +95,9 @@ $ cd unix_lesson/unix_lesson
 ### Shell basics
 We are going to start this review with some basic commands pertaining to navigating around the filesystem. Helpful reference materials are listed below:
 
-* [Introduction to Shell](https://hbctraining.github.io/Intro-to-shell-flipped//lessons/01_the_filesystem.html)
-* [Wildcards and shortcuts in Shell](https://hbctraining.github.io/Intro-to-shell-flipped/lessons/02_wildcards_shortcuts.html)
-* [Examining and creating files](https://hbctraining.github.io/Intro-to-shell-flipped/lessons/03_working_with_files.html)
+* [Introduction to Shell](https://hbctraining.github.io/Shell-for-bioinformatics//lessons/01_the_filesystem.html)
+* [Wildcards and shortcuts in Shell](https://hbctraining.github.io/Shell-for-bioinformatics/lessons/02_wildcards_shortcuts.html)
+* [Examining and creating files](https://hbctraining.github.io/Shell-for-bioinformatics/lessons/03_working_with_files.html)
 
 1. Change directory into the `unix_lesson/` directory.
 2. Take a quick look at the `Mov10_oe_1.subset.fq` file (located in `raw_fastq` directory) using `less` from `unix_lesson/`, without changing directories.
@@ -112,7 +112,7 @@ We are going to start this review with some basic commands pertaining to navigat
 ### Searching and redirection
 Next, we will search our files for specific patterns and redirect the results to file. Helpful reference materials are listed below:
 
-* [Searching and redirection](https://hbctraining.github.io/Intro-to-shell-flipped/lessons/04_searching_files.html)
+* [Searching and redirection](https://hbctraining.github.io/Shell-for-bioinformatics/lessons/04_searching_files.html)
 
 12. Create a new directory called `shell_review/` within the `unix_lesson/` directory.
 13. Search the file `unix_lesson/reference_data/chr1-hg19_genes.gtf` for lines containing the string "MOV10". Save the output in the `shell_review/` directory with a new name - "Mov10_hg19.gtf".
@@ -121,8 +121,8 @@ Next, we will search our files for specific patterns and redirect the results to
 
 ### Loops and shell scripts
 
-* [Shell scripts and variables in Shell](https://hbctraining.github.io/Intro-to-shell-flipped/lessons/05_shell-scripts_variable.html)
-* [Loops and automation](https://hbctraining.github.io/Intro-to-shell-flipped/lessons/06_loops_and_automation.html)
+* [Shell scripts and variables in Shell](https://hbctraining.github.io/Shell-for-bioinformatics/lessons/05_shell-scripts_variable.html)
+* [Loops and automation](https://hbctraining.github.io/Shell-for-bioinformatics/lessons/06_loops_and_automation.html)
 
 16. Use the `for` loop to iterate over each FASTQ file in `raw_fastq` and do the following:
       * Print the name of the current file
@@ -132,7 +132,7 @@ Next, we will search our files for specific patterns and redirect the results to
 
 ### Permissions
 
-* [Interpreting the permissions string](https://hbctraining.github.io/Intro-to-shell-flipped/lessons/07_permissions_and_environment_variables.html#permissions)
+* [Interpreting the permissions string](https://hbctraining.github.io/Shell-for-bioinformatics/lessons/07_permissions_and_environment_variables.html#permissions)
 
 There is a folder in the HBC training shared space on the O2 cluster called `intro_rnaseq_hpc`. Below we have displayed a long listing of its contents. 
 
@@ -166,7 +166,7 @@ drwxrwsr-x  2 mm573 hbctraining  306 Oct  6  2015 trimmed_fastq
 
 ### Environment variables
 
-* [Understanding environment variables](https://hbctraining.github.io/Intro-to-shell-flipped/lessons/07_permissions_and_environment_variables.html#environment-variables)
+* [Understanding environment variables](https://hbctraining.github.io/Shell-for-bioinformatics/lessons/07_permissions_and_environment_variables.html#environment-variables)
 
 23. Display the contents of the `$HOME` variable on your computer.
 24. Use the `which` command to check where the executable file for the `pwd` command lives in the directory structure.
