@@ -91,7 +91,7 @@ In this workshop, we will mostly create interactive sessions with `srun`.
 
 ```bash
 # Example code for starting an interactive session
-$ srun --pty -p interactive -t 0-3:00 --mem 1G --reservation=HBC1 /bin/bash
+$ srun --pty -p interactive -t 0-3:00 --mem 1G /bin/bash
 ```
 
 In the above command the parameters we are using are requesting specific resources:
@@ -99,7 +99,6 @@ In the above command the parameters we are using are requesting specific resourc
 * `-p interactive` - on the "partition" called "interactive" (a partition is a group of computers dedicated to certain types of jobs, interactive, long, short, high-memory, etc.)
 * `-t 0-8:00` - time needed for this work: 0 days, 8 hours, 0 minutes.
 * `--mem 1G` - memory needed - 1 gibibyte (GiB)
-* `--reservation=HBC1` - *this is only for **in class** portions of this workshop, make sure you don't use it for self-learning or when you have your own accounts.*
 * `/bin/bash` - You want to interact with the compute node using the *bash* shell
 
 > These parameters are used for `sbatch` as well, but they are listed differently within the script used to submit a batch job. We will be reviewing this later in this lesson.
