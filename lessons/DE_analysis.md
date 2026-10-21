@@ -275,7 +275,7 @@ for the counts from STAR.
 * Data Carpentry materials: http://tracykteal.github.io/R-genomics/
 * Materials from IQSS at Harvard: http://tutorials.iq.harvard.edu/R/Rintro/Rintro.html
 * [swirl](http://swirlstats.com/): learn R interactively from within the R console
-* The free "try R" class from [Code School](http://tryr.codeschool.com)
+* The free interactive [R course](https://coddy.tech/landing/r) from Coddy, in the browser
 * HarvardX course ["Statistics and R for the Life Sciences"](https://courses.edx.org/courses/HarvardX/PH525.1x/1T2015/info)
 
 ***
